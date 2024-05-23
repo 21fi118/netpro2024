@@ -8,6 +8,11 @@ public class TaskObject implements ITask {
     }
 
     @Override
+    public int getExecNumber() {
+        return this.execNumber;
+    }
+
+    @Override
     public void exec() {
         // サーバでの計算：入力x以下の最大素数を求める
         this.result = calculateMaxPrime(execNumber);
