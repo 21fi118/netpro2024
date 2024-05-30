@@ -11,7 +11,7 @@ public class CountAZTenRunnable implements Runnable {
         // 2つの文字を初期化します。
         char c1 = 97; // ASCII値 97 は 'a' です
         char c2 = (char) (c1 + 1); // c1 に 1 を足すと ASCII値 98 になり、'b' になります
-        char c3 = (char) (c2 + 1); // c1 に 1 を足すと ASCII値 99 になり、'c' になります
+        char c3 = (char) (c2 + 1);
 
         // 初期化した文字をコンソールに出力します。
         System.out.println(c1); // 出力: a
