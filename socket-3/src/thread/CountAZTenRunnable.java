@@ -45,8 +45,10 @@ public class CountAZTenRunnable implements Runnable {
 
         System.out.println("th1.getName()" + th1.getName());
         th1.start();
+        
         System.out.println("th2.getName()" + th2.getName());
         th2.start();
+
         System.out.println("th3.getName()" + th3.getName());
         th3.start();
         */
