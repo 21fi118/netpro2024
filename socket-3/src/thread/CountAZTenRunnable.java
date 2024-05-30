@@ -35,7 +35,7 @@ public class CountAZTenRunnable implements Runnable {
         for(CountAZTenRunnable ct:cts){
             new Thread(ct).start();
         }
-
+        
         /*
         // ct を実行する新しいスレッドを作成します。
         Thread th1 = new Thread(ct1);
