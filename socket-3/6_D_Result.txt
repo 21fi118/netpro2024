@@ -1,0 +1,32 @@
+6_D_Result.txt
+
+CountNumbersRunnable: 1
+MainThread: i=0
+AnonymousRunnable: i=0
+CountNumbersRunnable: 2
+MainThread: i=1
+AnonymousRunnable: i=1
+Count increased to: 1 from inner thread
+CountNumbersRunnable: 3
+MainThread: i=2
+CountNumbersRunnable: 4
+MainThread: i=3
+AnonymousRunnable: i=2
+Count increased to: 2 from inner thread
+MainThread: i=4
+CountNumbersRunnable: 5
+AnonymousRunnable: i=3
+MainThread: i=5
+CountNumbersRunnable: 6
+Count increased to: 3 from inner thread
+MainThread: i=6
+CountNumbersRunnable: 7
+AnonymousRunnable: i=4
+CountNumbersRunnable: 8
+MainThread: i=7
+Count increased to: 4 from inner thread
+CountNumbersRunnable: 9
+MainThread: i=8
+MainThread: i=9
+CountNumbersRunnable: 10
+Count increased to: 5 from inner thread
